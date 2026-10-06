@@ -8,7 +8,7 @@
 # O código da aplicação, propositalmente, continua com as
 # vulnerabilidades estudadas nos laboratórios de SonarQube e Semgrep.
 
-FROM python:3.12.15-fips
+FROM python:3.14.8-debian13
 WORKDIR /app
 
 COPY requirements.txt .
