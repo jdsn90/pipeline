@@ -8,8 +8,7 @@
 # O código da aplicação, propositalmente, continua com as
 # vulnerabilidades estudadas nos laboratórios de SonarQube e Semgrep.
 
-FROM python:3.11-slim-bookworm
-
+FROM python:3.12.15-fips
 WORKDIR /app
 
 COPY requirements.txt .
